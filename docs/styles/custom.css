@@ -1,0 +1,16 @@
+/* Estilo jornalístico com arte pop */
+h1,
+h2,
+h3 {
+    font-family: 'Roboto Slab', serif;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.3em;
+}
+
+a {
+    color: gray;
+}
+
+a:hover {
+    color: gray;
+}

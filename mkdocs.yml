@@ -1,0 +1,51 @@
+site_name: Meu Projeto Artístico
+site_description: Uma fusão de jornalismo e arte pop
+site_author: Seu Nome
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: grey
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: white
+      accent: yellow
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+  font:
+    text: Roboto Slab
+    code: Fira Code
+  logo: images/logo.svg  # Você pode adicionar um logo estilizado depois
+  favicon: images/favicon.ico
+
+nav:
+  - Início: index.md
+  - Sobre: sobre.md
+  - Contato: contato.md
+
+extra_css:
+  - styles/custom.css
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+
+extra_css:
+  - theme/style/custom.css
+
+extra_javascript: []
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lelamo2002/check-up
